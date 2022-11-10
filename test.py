@@ -10,6 +10,11 @@ from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestRegressor
 import json
 
+
+'''Python script for demand forecasting of charter flight bookings for a global charter flight business.   
+The dataset consists of their bookings over the course of 10 days and 
+the charge is to be able to predict demand by country on any future day.'''
+
 pd.options.display.max_columns = None
 pd.options.display.max_rows = None
 np.set_printoptions(precision=4, suppress=True)
